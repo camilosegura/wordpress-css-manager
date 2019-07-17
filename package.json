@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-css-manager",
+  "version": "1.0.0",
+  "description": "CSS file manager to use with Wordpress",
+  "main": "gulpfile.js",
+  "engines": {
+    "node": "12.6.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo Segura <camilosegurar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
